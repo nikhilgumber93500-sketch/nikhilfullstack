@@ -1,0 +1,31 @@
+.header {
+  height: 90px;
+  background-color: rgb(43, 39, 39);
+  border-bottom: 2px solid #ddd;
+  padding: 0 30px;
+}
+
+.logo-img {
+  width: 150px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 40px;
+}
+
+.welcome {
+  font-size: 26px;
+  color: hsl(189, 80%, 73%);
+}
+
+.logout-btn {
+  background-color: hsla(84, 91%, 42%, 0.683) !important;
+  border: none !important;
+  padding: 8px 22px;
+  border-radius: 100px;
+}

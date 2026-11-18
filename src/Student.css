@@ -1,0 +1,49 @@
+.student-container {
+  margin-left: 250px;
+  padding: 35px;
+  min-height: 100vh;
+}
+
+.student-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.student-heading h2 {
+  margin: 0;
+}
+
+.student-table {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.student-table table {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.student-table th {
+  background-color: rgb(43, 39, 39);
+  color: white;
+}
+
+/* ADD STUDENT FORM */
+.add-student-form {
+  display: block !important;
+  position: relative !important;
+  width: 600px;
+  max-width: 100%;
+  margin-top: 30px;
+  padding: 25px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-sizing: border-box;
+}
+
+.add-student-form h3 {
+  margin-bottom: 20px;
+}
